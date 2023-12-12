@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "nirmalCluster"
+        },
+        "location": {
+            "value": "canadacentral"
+        },
+        "osDiskSizeGB": {
+            "value": 30
+        },
+        "linuxAdminUsername": {
+            "value": "Nirmal" 
+        },
+        "dnsPrefix": {
+            "value": "nirmldns" 
+        },
+        "agentCount": {
+            "value": 1
+        },
+        "agentVMSize": {
+            "value": "standard_d2s_v3"
+        },
+       
+        "sshRSAPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5oXSRR+4tbNrCGKxOwsQN6GTvCUlXj14xrLR0DzcnRBtUhQBG9XubLmoez56vIL5hr5KZHsmGWn5wZWZMtkTzY9WND5ZnR5K5MS78nWsxnjdmkdPMS3SCeh3mhECl6p7UBCadzgB5jA6DS6n4YGEBNV3S0kiJJaeZivDoav32hLSwbcEIhdda/sbYtxm49RNkCxmVTQYsfmrnGe9TUI5eDJQQ72K7XEgX07D5oaSemszVFu7/RrAZ2rmCYZUmw57Mxg/CMWBWFT7lHi2S1Za3H6BrmRsJwWHzxMnP5RtPUOKW9/VDCm2vmy/xUVrSNlGnadCdR2idP4+dLXD1CMrbjWAKMrC4LLLJ5DM6yYf5x7gDfA6gA629xbNT1FUUGlJr2q6s8gkr5HWIRIUzc/6JrOo0sFnd4DJ9s+LqNUcTz6+itutvs3zoUZfiLLXIAb+BiDmeCRS4RCE976qK2EKDO6HLxVMnKEcMYlaLd4DTfodl5IJ4ZbwXqxiWtt6tENk= generated-by-azure"
+        }
+    } 
+}
